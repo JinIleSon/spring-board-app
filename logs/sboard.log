@@ -1876,3 +1876,9 @@ Relying upon circular references is discouraged and they are prohibited by defau
 2025-09-26T12:32:05.721+09:00  INFO 11016 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/sboard'
 2025-09-26T12:32:05.725+09:00  INFO 11016 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Started SboardApplication in 0.733 seconds (process running for 114.375)
 2025-09-26T12:32:05.727+09:00  INFO 11016 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-09-26T12:43:13.503+09:00  INFO 11016 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 28 class path changes (0 additions, 0 deletions, 28 modifications)
+2025-09-26T12:43:13.504+09:00  INFO 11016 --- [sboard] [Thread-9] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-26T12:43:13.570+09:00  INFO 11016 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-26T12:43:13.572+09:00  INFO 11016 --- [sboard] [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-26T12:43:13.572+09:00  INFO 11016 --- [sboard] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-09-26T12:43:13.683+09:00  INFO 11016 --- [sboard] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
