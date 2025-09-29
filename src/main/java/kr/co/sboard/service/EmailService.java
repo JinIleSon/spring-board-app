@@ -5,6 +5,7 @@ import jakarta.mail.Message;
 import jakarta.mail.internet.InternetAddress;
 import jakarta.mail.internet.MimeMessage;
 import jakarta.servlet.http.HttpSession;
+import kr.co.sboard.dto.SessionDataDTO;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +23,7 @@ public class EmailService {
 
     private final JavaMailSender mailSender;
 
+    private final SessionDataDTO  sessionData;
 
     @Value("${spring.mail.username}")
     private String sender;
@@ -48,7 +50,9 @@ public class EmailService {
             mailSender.send(message);
 
             // 현재 세션 저장(현재 클라이언트)
-            session.setAttribute("sessCode", String.valueOf(code));
+            //session.setAttribute("sessCode", String.valueOf(code));
+
+            sessionData.setCode(String.valueOf(code));
 
         }catch (Exception e){
             log.error(e.getMessage());
@@ -59,7 +63,8 @@ public class EmailService {
     public boolean verifyCode(String code){
 
         // 현재 세션 코드 가져오기
-        String sessCode = (String) session.getAttribute("sessCode");
+        //String sessCode = (String) session.getAttribute("sessCode");
+        String sessCode = sessionData.getCode();
 
         if(sessCode.equals(code)){
             return true;

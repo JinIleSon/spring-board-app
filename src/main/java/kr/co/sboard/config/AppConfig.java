@@ -1,6 +1,6 @@
 package kr.co.sboard.config;
 
-import kr.co.sboard.interceptor.AppInfoInterceptor;
+import kr.co.sboard.intercepter.AppInfoIntercepter;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
 import org.modelmapper.spi.MatchingStrategy;
@@ -19,12 +19,11 @@ public class AppConfig implements WebMvcConfigurer {
     public AppInfo getAppInfo() {
         appInfo = new AppInfo();
         return appInfo;
-
     }
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new AppInfoInterceptor(appInfo));
+        registry.addInterceptor(new AppInfoIntercepter(appInfo));
     }
 
     @Bean
@@ -39,4 +38,5 @@ public class AppConfig implements WebMvcConfigurer {
 
         return modelMapper;
     }
+
 }

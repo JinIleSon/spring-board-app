@@ -1,0 +1,17 @@
+package kr.co.sboard.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+import org.springframework.stereotype.Component;
+import org.springframework.web.context.annotation.SessionScope;
+
+@Data
+@Component
+@SessionScope // 각 세션(사용자)마다 생성
+public class SessionDataDTO {
+
+    private String code;
+
+}
