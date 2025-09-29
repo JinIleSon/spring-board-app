@@ -1,7 +1,6 @@
 /**
- *
+ * 카카오 우편번호 API 함수
  */
-
 function postcode() {
     new daum.Postcode({
         oncomplete: function(data) {
@@ -42,7 +41,7 @@ function postcode() {
             }
 
             // 우편번호와 주소 정보를 해당 필드에 넣는다.
-            document.getElementById("zip").value = data.zonecode;
+            document.getElementById('zip').value = data.zonecode;
             document.getElementById("addr1").value = addr;
             // 커서를 상세주소 필드로 이동한다.
             document.getElementById("addr2").focus();
