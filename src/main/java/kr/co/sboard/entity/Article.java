@@ -32,4 +32,11 @@ public class Article {
     @CreationTimestamp
     private LocalDateTime wdate;
 
+    // 추가필드
+    @Transient // 엔티티 컬럼 제외
+    private String nick;
+
+    public void setNick(String nick) {
+        this.nick = nick;
+    }
 }
