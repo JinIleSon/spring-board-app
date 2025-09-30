@@ -1,4 +1,4 @@
-package kr.co.sboard.intercepter;
+package kr.co.sboard.interceptor;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
@@ -8,7 +8,7 @@ import org.springframework.web.servlet.HandlerInterceptor;
 import org.springframework.web.servlet.ModelAndView;
 
 @RequiredArgsConstructor
-public class AppInfoIntercepter implements HandlerInterceptor {
+public class AppInfoInterceptor implements HandlerInterceptor {
 
     /*
         Interceptor

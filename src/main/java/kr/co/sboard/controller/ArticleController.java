@@ -8,6 +8,7 @@ import kr.co.sboard.service.FileService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 
@@ -22,7 +23,11 @@ public class ArticleController {
     private final FileService fileService;
 
     @GetMapping("/article/list")
-    public String list(){
+    public String list(Model model){
+//        List<ArticleDTO> dtoList = articleService.getArticleAll();
+
+//        model.addAttribute("dtoList", dtoList);
+
         return "article/list";
     }
 

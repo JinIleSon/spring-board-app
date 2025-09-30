@@ -1,10 +1,8 @@
 package kr.co.sboard.config;
 
-import kr.co.sboard.intercepter.AppInfoIntercepter;
+import kr.co.sboard.interceptor.AppInfoInterceptor;
 import org.modelmapper.ModelMapper;
 import org.modelmapper.convention.MatchingStrategies;
-import org.modelmapper.spi.MatchingStrategy;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
@@ -23,7 +21,7 @@ public class AppConfig implements WebMvcConfigurer {
 
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new AppInfoIntercepter(appInfo));
+        registry.addInterceptor(new AppInfoInterceptor(appInfo));
     }
 
     @Bean
