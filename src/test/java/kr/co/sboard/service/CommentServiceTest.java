@@ -38,7 +38,8 @@ class CommentServiceTest {
                     .reg_ip("127.0.0.1")
                     .build();
 
-            commentService.save(commentDTO);
+            CommentDTO savedCommentDTO = commentService.save(commentDTO);
+            System.out.println(savedCommentDTO);
         }
     }
 
