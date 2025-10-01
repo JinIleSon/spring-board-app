@@ -21,4 +21,7 @@ public class CommentDTO {
     private String reg_ip;
     private String wdate;
 
+    // 추가 필드
+    private String nick; // user의 nick을 가져오기 위함
+
 }

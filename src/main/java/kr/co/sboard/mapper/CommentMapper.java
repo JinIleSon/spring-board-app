@@ -9,7 +9,7 @@ import java.util.List;
 public interface CommentMapper {
 
     public CommentDTO select(int cno);
-    public List<CommentDTO> selectAll();
+    public List<CommentDTO> selectAll(int ano);
     public void insert(CommentDTO commentDTO);
     public void update(CommentDTO commentDTO);
     public void delete(int cno);
