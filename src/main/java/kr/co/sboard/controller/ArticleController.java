@@ -25,10 +25,11 @@ public class ArticleController {
     private final FileService fileService;
 
     @GetMapping("/article/list")
-    public String list(Model model, PageRequestDTO pageRequestDTO) {
+    public String list(Model model, PageRequestDTO pageRequestDTO){
+
         PageResponseDTO pageResponseDTO = articleService.getArticleAll(pageRequestDTO);
 
-        model.addAttribute("pageResponseDTO", pageResponseDTO);
+        model.addAttribute(pageResponseDTO);
 
         return "article/list";
     }
@@ -44,13 +45,18 @@ public class ArticleController {
         log.info("pageRequestDTO = {}", pageRequestDTO);
 
         PageResponseDTO pageResponseDTO = articleService.getArticleAll(pageRequestDTO);
-        model.addAttribute("pageResponseDTO", pageResponseDTO);
+        model.addAttribute(pageResponseDTO);
 
         return "article/searchList";
     }
 
     @GetMapping("/article/view")
-    public String view(){
+    public String view(int ano, Model model){
+        log.info("ano = {}", ano);
+
+        ArticleDTO articleDTO = articleService.getArticle(ano);
+        model.addAttribute(articleDTO);
+
         return "article/view";
     }
 
@@ -65,9 +71,6 @@ public class ArticleController {
         String regip = request.getRemoteAddr();
         articleDTO.setReg_ip(regip);
         log.info("articleDTO = {}", articleDTO);
-
-
-
 
         // 파일 업로드
         List<FileDTO> fileDTOList = fileService.upload(articleDTO);

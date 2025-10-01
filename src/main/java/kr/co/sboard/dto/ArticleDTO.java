@@ -29,7 +29,7 @@ public class ArticleDTO {
     private String wdate;
 
     public String getWdate() {
-        return wdate.substring(2, 16).replace("T",  " "); //연 월 일 시 분까지. T 문자열 없애기
+        return wdate.substring(2, 16).replace("T", " ");
     }
 
     // 업로드 파일 객체
@@ -42,5 +42,7 @@ public class ArticleDTO {
 
     // 추가필드
     private String nick;
+
+    private List<FileDTO> fileList;
 
 }
