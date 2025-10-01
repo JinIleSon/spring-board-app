@@ -6273,3 +6273,620 @@ https://docs.oracle.com/error-help/db/ora-17004/
 2025-10-01T12:30:31.327+09:00  INFO 10628 --- [sboard] [Thread-65] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-10-01T12:30:31.327+09:00  INFO 10628 --- [sboard] [Thread-65] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown initiated...
 2025-10-01T12:30:31.432+09:00  INFO 10628 --- [sboard] [Thread-65] com.zaxxer.hikari.HikariDataSource       : HikariPool-16 - Shutdown completed.
+2025-10-01T12:30:31.505+09:00  INFO 10628 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Starting SboardApplication v0.0.4-SNAPSHOT using Java 17.0.0.1 with PID 10628 (C:\Users\GGG\Desktop\sonjinile\sboard\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\sonjinile\sboard)
+2025-10-01T12:30:31.505+09:00  INFO 10628 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T12:30:31.670+09:00  INFO 10628 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-01T12:30:31.683+09:00  INFO 10628 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 4 JPA repository interfaces.
+2025-10-01T12:30:31.772+09:00  INFO 10628 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-01T12:30:31.772+09:00  INFO 10628 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-01T12:30:31.772+09:00  INFO 10628 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-01T12:30:31.787+09:00  INFO 10628 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-10-01T12:30:31.787+09:00  INFO 10628 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 281 ms
+2025-10-01T12:30:31.809+09:00  INFO 10628 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-01T12:30:31.812+09:00  INFO 10628 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-01T12:30:31.819+09:00  INFO 10628 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-01T12:30:31.820+09:00  INFO 10628 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Starting...
+2025-10-01T12:30:31.966+09:00  INFO 10628 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-17 - Added connection oracle.jdbc.driver.T4CConnection@486d8c19
+2025-10-01T12:30:31.966+09:00  INFO 10628 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Start completed.
+2025-10-01T12:30:32.046+09:00  INFO 10628 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-17)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-01T12:30:32.084+09:00  INFO 10628 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-01T12:30:32.084+09:00  INFO 10628 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:30:32.161+09:00  WARN 10628 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-01T12:30:32.166+09:00  INFO 10628 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-10-01T12:30:32.173+09:00  INFO 10628 --- [sboard] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-10-01T12:30:32.251+09:00  INFO 10628 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-01T12:30:32.260+09:00  INFO 10628 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/sboard'
+2025-10-01T12:30:32.264+09:00  INFO 10628 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Started SboardApplication in 0.778 seconds (process running for 2860.41)
+2025-10-01T12:30:32.264+09:00  INFO 10628 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-01T12:30:58.208+09:00  INFO 10628 --- [sboard] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-01T12:30:58.276+09:00  INFO 10628 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-01T12:30:58.288+09:00  INFO 10628 --- [sboard] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:30:58.288+09:00  INFO 10628 --- [sboard] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown initiated...
+2025-10-01T12:30:58.394+09:00  INFO 10628 --- [sboard] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-17 - Shutdown completed.
+2025-10-01T12:31:00.867+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Starting SboardApplication v0.0.4-SNAPSHOT using Java 17.0.0.1 with PID 10020 (C:\Users\GGG\Desktop\sonjinile\sboard\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\sonjinile\sboard)
+2025-10-01T12:31:00.870+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T12:31:00.907+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\GGG\.gradle\caches\modules-2\files-2.1\com.oracle.database.jdbc\ojdbc11\23.7.0.25.01\665f52abef9122ce003b5cfc1d9d44f7302e2cfe\ojdbc11-23.7.0.25.01.jar referenced one or more files that do not exist: file:/C:/Users/GGG/.gradle/caches/modules-2/files-2.1/com.oracle.database.jdbc/ojdbc11/23.7.0.25.01/665f52abef9122ce003b5cfc1d9d44f7302e2cfe/oraclepki.jar
+2025-10-01T12:31:00.908+09:00  INFO 10020 --- [sboard] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-10-01T12:31:00.908+09:00  INFO 10020 --- [sboard] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-10-01T12:31:01.600+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-01T12:31:01.672+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 4 JPA repository interfaces.
+2025-10-01T12:31:02.226+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-01T12:31:02.237+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-01T12:31:02.237+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-01T12:31:02.277+09:00  INFO 10020 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-10-01T12:31:02.277+09:00  INFO 10020 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1368 ms
+2025-10-01T12:31:02.449+09:00  INFO 10020 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-01T12:31:02.497+09:00  INFO 10020 --- [sboard] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-10-01T12:31:02.530+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-01T12:31:02.788+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-01T12:31:02.814+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-10-01T12:31:03.182+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@2f79c647
+2025-10-01T12:31:03.185+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-10-01T12:31:03.499+09:00  INFO 10020 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-01T12:31:04.310+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-01T12:31:04.313+09:00  INFO 10020 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:31:04.842+09:00  WARN 10020 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-01T12:31:04.874+09:00  INFO 10020 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-10-01T12:31:04.953+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-10-01T12:31:05.491+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-01T12:31:05.527+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/sboard'
+2025-10-01T12:31:05.535+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Started SboardApplication in 5.14 seconds (process running for 6.13)
+2025-10-01T12:31:05.746+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-01T12:31:05.747+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-01T12:31:05.748+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-10-01T12:31:07.116+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-8] k.c.sboard.controller.ArticleController  : ano = 9
+2025-10-01T12:48:45.455+09:00  INFO 10020 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 31 class path changes (0 additions, 0 deletions, 31 modifications)
+2025-10-01T12:48:45.459+09:00  INFO 10020 --- [sboard] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-01T12:48:45.526+09:00  INFO 10020 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-01T12:48:45.529+09:00  INFO 10020 --- [sboard] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:48:45.532+09:00  INFO 10020 --- [sboard] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-10-01T12:48:45.636+09:00  INFO 10020 --- [sboard] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-10-01T12:48:45.756+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Starting SboardApplication v0.0.4-SNAPSHOT using Java 17.0.0.1 with PID 10020 (C:\Users\GGG\Desktop\sonjinile\sboard\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\sonjinile\sboard)
+2025-10-01T12:48:45.756+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T12:48:45.960+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-01T12:48:45.978+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 16 ms. Found 4 JPA repository interfaces.
+2025-10-01T12:48:46.108+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-01T12:48:46.109+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-01T12:48:46.109+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-01T12:48:46.127+09:00  INFO 10020 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-10-01T12:48:46.127+09:00  INFO 10020 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 368 ms
+2025-10-01T12:48:46.138+09:00  WARN 10020 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [C2CC3B1930A7F7972B55F96106E63F3B]
+2025-10-01T12:48:46.161+09:00  INFO 10020 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-01T12:48:46.165+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-01T12:48:46.176+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-01T12:48:46.177+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-10-01T12:48:46.315+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection oracle.jdbc.driver.T4CConnection@565dca3c
+2025-10-01T12:48:46.315+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-10-01T12:48:46.389+09:00  INFO 10020 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-01T12:48:46.466+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-01T12:48:46.466+09:00  INFO 10020 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:48:46.580+09:00  WARN 10020 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-01T12:48:46.588+09:00  INFO 10020 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-10-01T12:48:46.598+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-10-01T12:48:46.725+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-01T12:48:46.736+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/sboard'
+2025-10-01T12:48:46.740+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Started SboardApplication in 1.038 seconds (process running for 1067.335)
+2025-10-01T12:48:46.741+09:00  INFO 10020 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-01T12:48:47.132+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-01T12:48:47.132+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-01T12:48:47.133+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-01T12:48:48.224+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-8] k.c.sboard.controller.ArticleController  : ano = 9
+2025-10-01T12:48:54.686+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-2] k.c.sboard.controller.CommentController  : commentDTO=CommentDTO(cno=0, ano=9, content=하세요
+, writer=thswlsdlf, reg_ip=null, wdate=null, nick=null)
+2025-10-01T12:48:54.816+09:00 ERROR 10020 --- [sboard] [http-nio-8090-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/sboard] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+https://docs.oracle.com/error-help/db/ora-00933/
+### The error may exist in file [C:\Users\GGG\Desktop\sonjinile\sboard\build\resources\main\mappers\comment.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM SB_COMMENT WHERE CNO=?;
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+https://docs.oracle.com/error-help/db/ora-00933/
+; bad SQL grammar []] with root cause
+
+oracle.jdbc.OracleDatabaseException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:969) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:298) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1255) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1413) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1287) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1844) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1620) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3973) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatement.doExecute(OraclePreparedStatement.java:4447) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:4433) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1029) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75) ~[mybatis-3.5.19.jar:3.5.19]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at jdk.proxy2/jdk.proxy2.$Proxy136.selectOne(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:154) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.19.jar:3.5.19]
+	at jdk.proxy5/jdk.proxy5.$Proxy153.select(Unknown Source) ~[na:na]
+	at kr.co.sboard.service.CommentService.getComment(CommentService.java:23) ~[main/:na]
+	at kr.co.sboard.service.CommentService.save(CommentService.java:28) ~[main/:na]
+	at kr.co.sboard.controller.CommentController.register(CommentController.java:43) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1776) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2025-10-01T12:49:00.654+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-3] k.c.sboard.controller.ArticleController  : ano = 9
+2025-10-01T12:49:10.378+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-5] k.c.sboard.controller.CommentController  : commentDTO=CommentDTO(cno=0, ano=9, content=안녕하세요, writer=thswlsdlf, reg_ip=null, wdate=null, nick=null)
+2025-10-01T12:49:10.433+09:00 ERROR 10020 --- [sboard] [http-nio-8090-exec-5] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/sboard] threw exception [Request processing failed: org.springframework.jdbc.BadSqlGrammarException: 
+### Error querying database.  Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+https://docs.oracle.com/error-help/db/ora-00933/
+### The error may exist in file [C:\Users\GGG\Desktop\sonjinile\sboard\build\resources\main\mappers\comment.xml]
+### The error may involve defaultParameterMap
+### The error occurred while setting parameters
+### SQL: SELECT * FROM SB_COMMENT WHERE CNO=?;
+### Cause: java.sql.SQLSyntaxErrorException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+https://docs.oracle.com/error-help/db/ora-00933/
+; bad SQL grammar []] with root cause
+
+oracle.jdbc.OracleDatabaseException: ORA-00933: SQL 명령어가 올바르게 종료되지 않았습니다
+
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:723) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CTTIoer11.processError(T4CTTIoer11.java:615) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4C8Oall.processError(T4C8Oall.java:1372) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CTTIfun.receive(T4CTTIfun.java:969) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CTTIfun.doRPC(T4CTTIfun.java:237) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4C8Oall.doOALL(T4C8Oall.java:524) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CPreparedStatement.doOall8(T4CPreparedStatement.java:298) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.T4CPreparedStatement.executeForDescribe(T4CPreparedStatement.java:1255) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OracleStatement.prepareDefineBufferAndExecute(OracleStatement.java:1413) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OracleStatement.executeMaybeDescribe(OracleStatement.java:1287) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OracleStatement.executeSQLSelect(OracleStatement.java:1844) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OracleStatement.doExecuteWithTimeout(OracleStatement.java:1620) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatement.executeInternal(OraclePreparedStatement.java:3973) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatement.doExecute(OraclePreparedStatement.java:4447) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatement.execute(OraclePreparedStatement.java:4433) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.execute(OraclePreparedStatementWrapper.java:1029) ~[ojdbc11-23.7.0.25.01.jar:23.7.0.25.01]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.execute(ProxyPreparedStatement.java:44) ~[HikariCP-6.3.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.execute(HikariProxyPreparedStatement.java) ~[HikariCP-6.3.3.jar:na]
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.query(PreparedStatementHandler.java:65) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.query(RoutingStatementHandler.java:80) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:65) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:336) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:158) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:110) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:90) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:154) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:142) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:75) ~[mybatis-3.5.19.jar:3.5.19]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:333) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at jdk.proxy2/jdk.proxy2.$Proxy136.selectOne(Unknown Source) ~[na:na]
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:154) ~[mybatis-spring-3.0.5.jar:3.0.5]
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:141) ~[mybatis-3.5.19.jar:3.5.19]
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86) ~[mybatis-3.5.19.jar:3.5.19]
+	at jdk.proxy5/jdk.proxy5.$Proxy153.select(Unknown Source) ~[na:na]
+	at kr.co.sboard.service.CommentService.getComment(CommentService.java:23) ~[main/:na]
+	at kr.co.sboard.service.CommentService.save(CommentService.java:28) ~[main/:na]
+	at kr.co.sboard.controller.CommentController.register(CommentController.java:43) ~[main/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:258) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:191) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:991) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:896) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.46.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:108) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.web.FilterChainProxy.lambda$doFilterInternal$3(FilterChainProxy.java:231) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:365) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.access.intercept.AuthorizationFilter.doFilter(AuthorizationFilter.java:101) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:125) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:100) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:179) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:235) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:229) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:107) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:93) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:82) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.context.SecurityContextHolderFilter.doFilter(SecurityContextHolderFilter.java:69) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:62) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:374) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:233) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:191) ~[spring-security-web-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.ServletRequestPathFilter.doFilter(ServletRequestPathFilter.java:52) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.config.annotation.web.configuration.WebSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebSecurityConfiguration.java:319) ~[spring-security-config-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.servlet.handler.HandlerMappingIntrospector.lambda$createCacheFilter$4(HandlerMappingIntrospector.java:267) ~[spring-webmvc-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.CompositeFilter$VirtualFilterChain.doFilter(CompositeFilter.java:113) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.CompositeFilter.doFilter(CompositeFilter.java:74) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.security.config.annotation.web.configuration.WebMvcSecurityConfiguration$CompositeFilterChainProxy.doFilter(WebMvcSecurityConfiguration.java:240) ~[spring-security-config-6.5.5.jar:6.5.5]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:362) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:278) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.11.jar:6.2.11]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:116) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:398) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:903) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1776) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:975) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:493) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.46.jar:10.1.46]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2025-10-01T12:50:00.231+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-10] k.c.sboard.controller.ArticleController  : ano = 9
+2025-10-01T12:50:00.451+09:00  INFO 10020 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 31 class path changes (0 additions, 0 deletions, 31 modifications)
+2025-10-01T12:50:00.452+09:00  INFO 10020 --- [sboard] [Thread-9] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-01T12:50:00.519+09:00  INFO 10020 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-01T12:50:00.522+09:00  INFO 10020 --- [sboard] [Thread-9] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:50:00.522+09:00  INFO 10020 --- [sboard] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-10-01T12:50:00.628+09:00  INFO 10020 --- [sboard] [Thread-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2025-10-01T12:50:00.702+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Starting SboardApplication v0.0.4-SNAPSHOT using Java 17.0.0.1 with PID 10020 (C:\Users\GGG\Desktop\sonjinile\sboard\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\sonjinile\sboard)
+2025-10-01T12:50:00.703+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T12:50:00.878+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-01T12:50:00.895+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 15 ms. Found 4 JPA repository interfaces.
+2025-10-01T12:50:01.006+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-01T12:50:01.006+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-01T12:50:01.007+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-01T12:50:01.031+09:00  INFO 10020 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-10-01T12:50:01.031+09:00  INFO 10020 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 327 ms
+2025-10-01T12:50:01.041+09:00  WARN 10020 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [E57DA9FCF6A00CABAEA27131E376EEFD]
+2025-10-01T12:50:01.059+09:00  INFO 10020 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-01T12:50:01.062+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-01T12:50:01.070+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-01T12:50:01.071+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2025-10-01T12:50:01.206+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection oracle.jdbc.driver.T4CConnection@6edc1e43
+2025-10-01T12:50:01.206+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2025-10-01T12:50:01.283+09:00  INFO 10020 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-01T12:50:01.345+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-01T12:50:01.346+09:00  INFO 10020 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:50:01.439+09:00  WARN 10020 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-01T12:50:01.446+09:00  INFO 10020 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-10-01T12:50:01.453+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-10-01T12:50:01.549+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-01T12:50:01.558+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/sboard'
+2025-10-01T12:50:01.561+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Started SboardApplication in 0.885 seconds (process running for 1142.156)
+2025-10-01T12:50:01.563+09:00  INFO 10020 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-01T12:50:01.584+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-01T12:50:01.584+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-01T12:50:01.585+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-01T12:50:02.722+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-8] k.c.sboard.controller.ArticleController  : ano = 9
+2025-10-01T12:50:09.971+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-2] k.c.sboard.controller.CommentController  : commentDTO=CommentDTO(cno=0, ano=9, content=좋아요, writer=thswlsdlf, reg_ip=null, wdate=null, nick=null)
+2025-10-01T12:50:13.610+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-3] k.c.sboard.controller.ArticleController  : ano = 9
+2025-10-01T12:50:19.393+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-4] k.c.sboard.controller.CommentController  : commentDTO=CommentDTO(cno=0, ano=9, content=아닌가?, writer=thswlsdlf, reg_ip=null, wdate=null, nick=null)
+2025-10-01T12:50:20.959+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-8] k.c.sboard.controller.ArticleController  : ano = 9
+2025-10-01T12:56:26.256+09:00  INFO 10020 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2025-10-01T12:56:26.257+09:00  INFO 10020 --- [sboard] [Thread-13] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-01T12:56:26.340+09:00  INFO 10020 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-01T12:56:26.342+09:00  INFO 10020 --- [sboard] [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:56:26.342+09:00  INFO 10020 --- [sboard] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2025-10-01T12:56:26.446+09:00  INFO 10020 --- [sboard] [Thread-13] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2025-10-01T12:56:26.534+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Starting SboardApplication v0.0.4-SNAPSHOT using Java 17.0.0.1 with PID 10020 (C:\Users\GGG\Desktop\sonjinile\sboard\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\sonjinile\sboard)
+2025-10-01T12:56:26.534+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T12:56:26.741+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-01T12:56:26.767+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces.
+2025-10-01T12:56:26.965+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-01T12:56:26.971+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-01T12:56:26.971+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-01T12:56:26.990+09:00  INFO 10020 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-10-01T12:56:26.990+09:00  INFO 10020 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 454 ms
+2025-10-01T12:56:27.003+09:00  WARN 10020 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [523CE2398FE77BAF49EE44C8E641673B]
+2025-10-01T12:56:27.027+09:00  INFO 10020 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-01T12:56:27.031+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-01T12:56:27.041+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-01T12:56:27.042+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2025-10-01T12:56:27.179+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-4 - Added connection oracle.jdbc.driver.T4CConnection@656e820
+2025-10-01T12:56:27.180+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2025-10-01T12:56:27.254+09:00  INFO 10020 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-01T12:56:27.315+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-01T12:56:27.316+09:00  INFO 10020 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:56:27.421+09:00  WARN 10020 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-01T12:56:27.429+09:00  INFO 10020 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-10-01T12:56:27.438+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-10-01T12:56:27.548+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-01T12:56:27.557+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/sboard'
+2025-10-01T12:56:27.561+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Started SboardApplication in 1.06 seconds (process running for 1528.156)
+2025-10-01T12:56:27.562+09:00  INFO 10020 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-01T12:56:28.975+09:00  INFO 10020 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2025-10-01T12:56:28.976+09:00  INFO 10020 --- [sboard] [Thread-17] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-01T12:56:29.040+09:00  INFO 10020 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-01T12:56:29.042+09:00  INFO 10020 --- [sboard] [Thread-17] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:56:29.042+09:00  INFO 10020 --- [sboard] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2025-10-01T12:56:29.149+09:00  INFO 10020 --- [sboard] [Thread-17] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2025-10-01T12:56:29.215+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Starting SboardApplication v0.0.4-SNAPSHOT using Java 17.0.0.1 with PID 10020 (C:\Users\GGG\Desktop\sonjinile\sboard\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\sonjinile\sboard)
+2025-10-01T12:56:29.216+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T12:56:29.392+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-01T12:56:29.406+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 4 JPA repository interfaces.
+2025-10-01T12:56:29.515+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-01T12:56:29.515+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-01T12:56:29.515+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-01T12:56:29.530+09:00  INFO 10020 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-10-01T12:56:29.530+09:00  INFO 10020 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 313 ms
+2025-10-01T12:56:29.553+09:00  INFO 10020 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-01T12:56:29.556+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-01T12:56:29.563+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-01T12:56:29.564+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2025-10-01T12:56:29.691+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-5 - Added connection oracle.jdbc.driver.T4CConnection@c39a3cd
+2025-10-01T12:56:29.691+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2025-10-01T12:56:29.763+09:00  INFO 10020 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-01T12:56:29.820+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-01T12:56:29.820+09:00  INFO 10020 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:56:29.908+09:00  WARN 10020 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-01T12:56:29.914+09:00  INFO 10020 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-10-01T12:56:29.921+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-10-01T12:56:30.010+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-01T12:56:30.020+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/sboard'
+2025-10-01T12:56:30.023+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Started SboardApplication in 0.83 seconds (process running for 1530.618)
+2025-10-01T12:56:30.024+09:00  INFO 10020 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-01T12:57:13.391+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-01T12:57:13.392+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-01T12:57:13.393+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-01T12:57:14.151+09:00  INFO 10020 --- [sboard] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2025-10-01T12:57:14.152+09:00  INFO 10020 --- [sboard] [Thread-21] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-01T12:57:14.218+09:00  INFO 10020 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-01T12:57:14.220+09:00  INFO 10020 --- [sboard] [Thread-21] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:57:14.220+09:00  INFO 10020 --- [sboard] [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2025-10-01T12:57:14.325+09:00  INFO 10020 --- [sboard] [Thread-21] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2025-10-01T12:57:14.403+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Starting SboardApplication v0.0.4-SNAPSHOT using Java 17.0.0.1 with PID 10020 (C:\Users\GGG\Desktop\sonjinile\sboard\build\classes\java\main started by GGG in C:\Users\GGG\Desktop\sonjinile\sboard)
+2025-10-01T12:57:14.404+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : No active profile set, falling back to 1 default profile: "default"
+2025-10-01T12:57:14.578+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-10-01T12:57:14.593+09:00  INFO 10020 --- [sboard] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 4 JPA repository interfaces.
+2025-10-01T12:57:14.692+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8090 (http)
+2025-10-01T12:57:14.692+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-10-01T12:57:14.693+09:00  INFO 10020 --- [sboard] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-10-01T12:57:14.725+09:00  INFO 10020 --- [sboard] [restartedMain] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring embedded WebApplicationContext
+2025-10-01T12:57:14.725+09:00  INFO 10020 --- [sboard] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 320 ms
+2025-10-01T12:57:14.752+09:00  INFO 10020 --- [sboard] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-10-01T12:57:14.755+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-10-01T12:57:14.762+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-10-01T12:57:14.763+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2025-10-01T12:57:14.896+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-6 - Added connection oracle.jdbc.driver.T4CConnection@12801ed5
+2025-10-01T12:57:14.896+09:00  INFO 10020 --- [sboard] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2025-10-01T12:57:14.970+09:00  INFO 10020 --- [sboard] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 21.3
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-10-01T12:57:15.024+09:00  INFO 10020 --- [sboard] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-10-01T12:57:15.024+09:00  INFO 10020 --- [sboard] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T12:57:15.110+09:00  WARN 10020 --- [sboard] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-10-01T12:57:15.117+09:00  INFO 10020 --- [sboard] [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name myUserDetailsService
+2025-10-01T12:57:15.125+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2025-10-01T12:57:15.214+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-10-01T12:57:15.223+09:00  INFO 10020 --- [sboard] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8090 (http) with context path '/sboard'
+2025-10-01T12:57:15.227+09:00  INFO 10020 --- [sboard] [restartedMain] kr.co.sboard.SboardApplication           : Started SboardApplication in 0.846 seconds (process running for 1575.822)
+2025-10-01T12:57:15.227+09:00  INFO 10020 --- [sboard] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-10-01T12:57:15.383+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.a.c.c.C.[.[localhost].[/sboard]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-10-01T12:57:15.383+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-10-01T12:57:15.384+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-10-01T12:57:15.537+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-2] k.c.sboard.controller.ArticleController  : ano = 9
+2025-10-01T12:57:21.011+09:00  INFO 10020 --- [sboard] [http-nio-8090-exec-6] k.c.sboard.controller.CommentController  : commentDTO=CommentDTO(cno=0, ano=9, content=가나다, writer=thswlsdlf, reg_ip=null, wdate=null, nick=null)
+2025-10-01T15:03:21.696+09:00  INFO 10020 --- [sboard] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-10-01T15:03:21.767+09:00  INFO 10020 --- [sboard] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-10-01T15:03:21.773+09:00  INFO 10020 --- [sboard] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-10-01T15:03:21.777+09:00  INFO 10020 --- [sboard] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2025-10-01T15:03:21.883+09:00  INFO 10020 --- [sboard] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
