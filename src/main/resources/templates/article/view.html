@@ -1,12 +1,9 @@
-<html xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
-
 <div th:replace="~{article/_head.html}"></div>
-
 <script>
+
     document.addEventListener('DOMContentLoaded', function (){
 
-        const ano = [[${articleDTO.ano}]];
-
+        const ano = `[[${articleDTO.ano}]]`;
         console.log('ano : ' + ano);
 
         // 댓글 목록 출력
@@ -41,23 +38,24 @@
         // 댓글 쓰기
         const form = document.commentForm;
         form.addEventListener('submit', function (e){
-           e.preventDefault();
+            e.preventDefault();
+            alert('dfdf');
 
-           const jsonData = {
-               "ano": form.ano.value,
-               "writer": form.writer.value,
-               "content": form.content.value
-           };
+            const jsonData = {
+                "ano": form.ano.value,
+                "writer": form.writer.value,
+                "content": form.content.value
+            };
 
-           fetch('/sboard/comment', {
-               method: 'POST',
-               headers: {"Content-Type": "application/json"},
-               body: JSON.stringify(jsonData)
-           })
-               .then(response => response.json())
-               .then(data => {
-                   console.log(data);
-                   const commentArticle = `<article>
+            fetch('/sboard/comment', {
+                method: 'POST',
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify(jsonData)
+            })
+                .then(response => response.json())
+                .then(data => {
+                    console.log(data);
+                    const commentArticle = `<article>
 								                <span class="nick">${data.nick}</span>
 								                <span class="date">${data.wdate}</span>
 								                <p class="content">${data.content}</p>
@@ -67,19 +65,19 @@
 								                </div>
 								            </article>`;
 
-                   commentList.insertAdjacentHTML('beforeEnd', commentArticle);
-                   empty.remove();
+                    commentList.insertAdjacentHTML('beforeEnd', commentArticle);
+                    empty.remove();
 
-                   // 폼 초기화(입력했던 데이터 비우기)
-                   form.reset();
-               })
-               .catch(err => {
-                   console.log(err);
-               });
-
+                    // 폼 초기화(입력했던 데이터 비우기)
+                    form.reset();
+                })
+                .catch(err => {
+                    console.log(err);
+                });
         });
     });
 </script>
+
 <main id="article">
     <section class="view">
         <nav>

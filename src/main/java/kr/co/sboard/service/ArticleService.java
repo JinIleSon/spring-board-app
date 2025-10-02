@@ -5,6 +5,7 @@ import kr.co.sboard.dto.ArticleDTO;
 import kr.co.sboard.dto.PageRequestDTO;
 import kr.co.sboard.dto.PageResponseDTO;
 import kr.co.sboard.entity.Article;
+import kr.co.sboard.mapper.ArticleMapper;
 import kr.co.sboard.repository.ArticleRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -24,6 +25,27 @@ public class ArticleService {
     private final ArticleRepository articleRepository;
     private final ModelMapper modelMapper;
 
+    private final ArticleMapper articleMapper;
+
+
+    public PageResponseDTO selectArticleAll(PageRequestDTO pageRequestDTO) {
+        // MyBatis 처리
+        List<ArticleDTO> dtoList = articleMapper.selectAll(pageRequestDTO);
+
+        int total = articleMapper.selectCountTotal(pageRequestDTO);
+
+        return PageResponseDTO.builder()
+                .pageRequestDTO(pageRequestDTO)
+                .dtoList(dtoList)
+                .total(total)
+                .build();
+    }
+
+    public int selectCountTotal(PageRequestDTO pageRequestDTO) {
+        return articleMapper.selectCountTotal(pageRequestDTO);
+    }
+
+/// ///////////////////////////////////////
     public ArticleDTO getArticle(int ano){
 
         Optional<Article> optArticle = articleRepository.findById(ano);
@@ -33,15 +55,16 @@ public class ArticleService {
         }
         return null;
     }
-    public PageResponseDTO getArticleAll(PageRequestDTO  pageRequestDTO){
+    public PageResponseDTO getArticleAll(PageRequestDTO pageRequestDTO){
 
         //List<Article> list = articleRepository.findAll();
 
         Pageable pageable = pageRequestDTO.getPageable("ano");
 
         Page<Tuple> pageTuple = null;
+
         if(pageRequestDTO.getSearchType() != null){
-            // 검색 글 검색
+            // 검색 글 목록
             pageTuple = articleRepository.selectArticleAllForSearch(pageRequestDTO, pageable);
         }else{
             // 일반 글 목록
@@ -49,7 +72,7 @@ public class ArticleService {
         }
 
         List<Tuple> tupleList = pageTuple.getContent();
-        int total = (int)pageTuple.getTotalElements();
+        int total = (int) pageTuple.getTotalElements();
 
         List<ArticleDTO> dtoList = tupleList.stream()
                 .map(tuple -> {
@@ -61,6 +84,7 @@ public class ArticleService {
 
                 })
                 .toList();
+
 
         return PageResponseDTO.builder()
                 .pageRequestDTO(pageRequestDTO)

@@ -6,8 +6,10 @@ import kr.co.sboard.service.CommentService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
+import javax.xml.stream.events.Comment;
 import java.util.List;
 
 @Slf4j
@@ -18,31 +20,26 @@ public class CommentController {
     private final CommentService commentService;
 
     @GetMapping("/comments/{ano}")
-    public ResponseEntity<List<CommentDTO>> list(@PathVariable("ano") int ano){
-
+    public ResponseEntity<?> list(@PathVariable("ano") int ano){
         List<CommentDTO> dtoList = commentService.getCommentAll(ano);
-
         return ResponseEntity.ok(dtoList);
     }
 
     @GetMapping("/comment/{cno}")
     public ResponseEntity<?> comment(@PathVariable("cno") int cno){
-        kr.co.sboard.dto.CommentDTO commentDTO = commentService.getComment(cno);
-
+        CommentDTO commentDTO = commentService.getComment(cno);
         return ResponseEntity.ok(commentDTO);
     }
 
     @PostMapping("/comment")
     public ResponseEntity<?> register(@RequestBody CommentDTO commentDTO, HttpServletRequest request){
-
-        log.info("commentDTO={}", commentDTO);
+        log.info("commentDTO = {}", commentDTO);
 
         String regip = request.getRemoteAddr();
         commentDTO.setReg_ip(regip);
 
-        CommentDTO savedcommentDTO = commentService.save(commentDTO);
-
-        return ResponseEntity.ok(savedcommentDTO);
+        CommentDTO savedComment = commentService.save(commentDTO);
+        return ResponseEntity.ok(savedComment);
     }
 
     @PutMapping("/comment")
@@ -50,4 +47,5 @@ public class CommentController {
 
     @DeleteMapping("/comment")
     public void delete(){}
+
 }
