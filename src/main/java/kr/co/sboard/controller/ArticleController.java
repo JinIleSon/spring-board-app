@@ -27,6 +27,7 @@ public class ArticleController {
     @GetMapping("/article/list")
     public String list(Model model, PageRequestDTO pageRequestDTO){
 
+//        JPA
         // JPA
         //PageResponseDTO pageResponseDTO = articleService.getArticleAll(pageRequestDTO);
 
